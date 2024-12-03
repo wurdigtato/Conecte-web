@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+    <body class="">
+        <header class="bg-azul-fundo w-full flex justify-between items-center px-[12.5rem] py-5">
+            <img src="img/logo.png" alt="logo do aplicativo Conecte" class="w-[12rem]">
+            <nav>
+                <ul class="flex items-center gap-12 font-poppins text-branco text-[1rem] font-semibold">
+                    <li><a href="index.html" class="hover:text-azul-escuro ease-linear duration-100">Home</a></li>
+                    <li><a href="index.html#servicos" class="hover:text-azul-escuro ease-linear duration-100">Serviços</a></li>
+                    <li><a href="#" class="text-azul-escuro underline underline-offset-2 decoration-2 ease-linear duration-100">Contato</a></li>
+                    <li class="flex gap-4"><a href="login.html" class="bg-branco w-[8rem] py-1 rounded-full text-azul-escuro text-center hover:font-bold hover:bg-azul-escuro hover:text-branco ease-linear duration-100">Entrar</a>
+                    <a href="register.html" class="border border-azul-escuro w-[8rem] py-1 rounded-full text-branco text-center hover:bg-azul-escuro hover:font-bold ease-linear duration-100">Cadastre-se</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="bg-[url('img/bg_contato.png')] bg-cover h-fit py-[10rem] w-full flex justify-around items-center px-[12.5rem]">
+                <form action="" class="w-[50%] flex flex-col gap-[1.75rem]">
+                    <h4 class="font-poppins text-[1.5rem] text-preto font-semibold">Entre em contato</h4>
+                    <div class="flex flex-col gap-2">
+                        <label for="nome" class="font-poppins text-preto">Nome</label>
+                        <div class="w-fit px-3 py-2 bg-cinza-claro rounded-md border border-azul-claro flex items-center">
+                            <i class="fa-solid fa-user mr-3 text-azul-claro text-[1.5rem]"></i>
+                            <input checked type="text" placeholder="Nome" class="bg-cinza-claro w-[20rem] text-azul-claro font-poppins placeholder:text-azul-claro focus:outline-none">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <label for="nome" class="font-poppins text-preto">E-mail</label>
+                        <div class="w-fit px-3 py-2 bg-cinza-claro rounded-md border border-azul-claro flex items-center">
+                            <i class="fa-solid fa-envelope mr-3 text-azul-claro text-[1.5rem]"></i>
+                            <input checked type="email" placeholder="E-mail" class="bg-cinza-claro w-[20rem] text-azul-claro font-poppins placeholder:text-azul-claro focus:outline-none">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2 w-fit">
+                        <label for="nome" class="font-poppins text-preto">Envie sua mensagem</label>
+                        <textarea placeholder="Digite aqui sua mensagem" class="resize-none p-2 h-[10rem] rounded-md border border-azul-claro bg-cinza-claro w-[30rem] text-azul-claro font-poppins placeholder:text-azul-claro focus:outline-none"></textarea>
+                        <div class="flex justify-between">
+                            <button type="submit" class="w-[45%] bg-azul-escuro py-2 rounded-md font-poppins text-branco font-semibold">Enviar</button>
+                            <button type="reset" class="w-[45%] bg-cinza py-2 rounded-md font-poppins text-azul-escuro font-semibold">Limpar</button>
+                        </div>
+                    </div>
+                </form>
+                    <div class="w-[50%] h-full flex justify-center items-end">
+                    <div class="bg-branco w-[30rem] h-fit py-4 flex flex-col justify-center items-center gap-2 bg-opacity-40 backdrop-blur-md rounded-lg shadow-md">
+                        <div class="flex flex-col justify-center items-center">
+                            <h5 class="font-poppins font-semibold text-preto text-[1.4rem]">Suporte</h5>
+                            <p class="flex items-center gap-2 align-middle py-2 text-preto font-poppins"><i class="fa-solid fa-phone text-[1.5rem] mr-4 align-middle text-azul-claro"></i>(53) 9 9900 9900</p>
+                        </div>
+                        
+                    </div>    
+                </div>
+            </section>
+        </main>
+        <footer class="bg-azul-fundo flex justify-between items-center px-[12.5rem] py-[5rem]">
+            <ul class="flex flex-col gap-2.5">
+                <li><a href=""><img src="img/logo_footer.png" alt="logo conecte em cinza" class="w-[18rem]"></a></li>
+                <li><p class="text-cinza font-semibold font-poppin text-[1.5rem]">Conexões que impulsionam <br>carreiras</p></li>
+            </ul>
+            <ul class="flex flex-col justify-center items-center gap-4">
+                <li><p class="text-cinza font-semibold font-poppin">Disponível em</p></li>
+                <li class="flex ">
+                    <a href=""><img src="img/google_btn.png" alt="" class="w-[9rem] h-fit"></a>
+                    <a href=""><img src="img/apple_btn.png" alt="" class="w-[9rem] h-fit"></a>
+                </li>
+                <ul class="flex gap-4">
+                    <li><a href=""><i class="fa-brands fa-square-facebook text-[2rem] text-cinza hover:text-azul-escuro ease-linear duration-150"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram text-[2rem] text-cinza hover:text-azul-escuro ease-linear duration-150"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin text-[2rem] text-cinza hover:text-azul-escuro ease-linear duration-150"></i></a></li>
+                </ul>
+            </ul>
+            <ul class="text-right text-cinza font-semibold font-poppins text-[1rem] gap-[0.5rem] flex flex-col">
+                <li><a href="" class="hover:text-azul-escuro ease-linear duration-150">Home</a></li>
+                <li><a href="#servicos" class="hover:text-azul-escuro ease-linear duration-150">Serviços</a></li>
+                <li><a href="" class="hover:text-azul-escuro ease-linear duration-150">Contato</a></li>
+                <li><a href="" class="hover:text-azul-escuro ease-linear duration-150">Entrar</a></li>
+                <li><a href="" class="hover:text-azul-escuro ease-linear duration-150">Cadastre-se</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

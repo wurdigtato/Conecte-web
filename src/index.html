@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+    <body class="">
+        <header class="bg-azul-fundo w-full flex justify-between items-center px-[12.5rem] py-5">
+            <img src="img/logo.png" alt="logo do aplicativo Conecte" class="w-[12rem]">
+            <nav>
+                <ul class="flex items-center gap-12 font-poppins text-branco text-[1rem] font-semibold">
+                    <li><a href="#" class="text-azul-escuro underline underline-offset-2 decoration-2 ease-linear duration-100">Home</a></li>
+                    <li><a href="#servicos" class="hover:text-azul-escuro ease-linear duration-100">Serviços</a></li>
+                    <li><a href="contato.html" class="hover:text-azul-escuro ease-linear duration-100">Contato</a></li>
+                    <li class="flex gap-4"><a href="login.html" class="bg-branco w-[8rem] py-1 rounded-full text-azul-escuro text-center hover:font-bold hover:bg-azul-escuro hover:text-branco ease-linear duration-100">Entrar</a>
+                    <a href="register.html" class="border border-azul-escuro w-[8rem] py-1 rounded-full text-branco text-center hover:bg-azul-escuro hover:font-bold ease-linear duration-100">Cadastre-se</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="bg-[url('img/background-hero.png')] bg-cover bg-no-repeat px-[12.5rem] h-[33rem] flex justify-between items-center"> <!--HERO SECTION-->
+                <div class="h-full flex items-end"><img src="img/smart-hero.png" alt="maõ segurando smartphone com o app conecte" class="w-[35rem]"></div>
+                <div class="flex flex-col justify-center items-end h-full w-fit gap-[1.5rem]">
+                    <h1 class="text-azul-escuro font-poppins text-[3.75rem] text-right uppercase font-semibold leading-h1">Conexões <br> que <span class="text-azul-claro">impulsionam</span><br><span class="text-preto font-bold">carreiras</span></h1>
+                    <p class="text-preto font-poppins text-[1.5rem] text-right">O Conecte é a solução para quem busca<br> um novo emprego de forma rápida e precisa</p>
+                    <ul class="flex justify-between items-center w-full">
+                        <li><a href=""><img src="img/google_btn.png" alt="" class="w-[16rem]"></a></li>
+                        <li><a href=""><img src="img/apple_btn.png" alt="" class="w-[16rem]"></a></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="servicos" class="px-[12.5rem] flex flex-col gap-[5rem]" id="servicos"> <!--SERVIÇOS SECTION-->
+                <div class="flex justify-between mt-[5rem] ">
+                    <div class="bg-preto w-[50%] flex justify-center items-center rounded-l-3xl  shadow-md">
+                        <p class="text-branco font-poppins text-[2rem]">O <span class="text-cinza font-semibold">Conecte</span> tem como proposta <br> apresentar a <span class="text-azul-claro font-semibold">solução</span> para quem <br> busca um novo emprego</p>
+                    </div>
+                    <img src="img/servicos_img1.webp" alt="imagem de aperto de mão" class="w-[50%] shadow-md">
+                </div>
+                <div class="flex justify-between items-center">
+                    <div class="w-[20%] h-[30rem] bg-azul-claro flex justify-center items-center rounded-l-3xl  shadow-md">
+                        <h3 class="flex -rotate-90 text-branco font-poppins text-[3.3rem] font-bold uppercase">Serviços</h3>
+                    </div>
+                    <div class="w-[60%] flex justify-around items-center">
+                        <div class="w-[15rem] h-[15rem] shadow-lg rounded-lg flex justify-center items-center flex-col text-center gap-8">
+                            <p class="font-poppins text-[1.5rem] capitalize text-azul-escuro font-semibold">Cadastro<br>rápido</p>
+                            <i class="fa-solid fa-file-circle-plus text-[4rem] text-azul-claro"></i>
+                        </div>
+                        <div class="w-[15rem] h-[15rem] shadow-lg rounded-lg flex justify-center items-center flex-col text-center gap-8">
+                            <p class="font-poppins text-[1.5rem] capitalize text-azul-escuro font-semibold">Currículo<br>padronizado</p>
+                            <i class="fa-solid fa-bars-staggered text-[4rem] text-azul-claro"></i>
+                        </div>
+                        <div class="w-[15rem] h-[15rem] shadow-lg rounded-lg flex justify-center items-center flex-col text-center gap-8 ">
+                            <p class="font-poppins text-[1.5rem] capitalize text-azul-escuro font-semibold">Sistema<br>de match</p>
+                            <i class="fa-solid fa-link text-[4rem] text-azul-claro"></i>
+                        </div>
+                    </div>
+                    <div class="w-[20%] h-[30rem] bg-azul-escuro flex justify-center items-center rounded-r-3xl shadow-md"></div>
+                </div>
+                <div class="flex flex-row-reverse justify-between mb-[5rem]">
+                    <div class="bg-preto w-full flex flex-col justify-center items-end px-[2rem] gap-[4rem] rounded-r-3xl shadow-md">
+                        <p class="text-branco font-poppins text-[1.5rem] text-right">A plataforma simplifica a busca por vagas, oferecendo filtros<br> que <span class="text-azul-claro font-semibold underline">conectam</span> candidatos a cargos alinhados ao seu nível <br> de experiência como: <span class="text-cinza font-semibold">jovem aprendiz, júnior, pleno, sênior e especialista</span>.</p>
+                        <p class="text-branco font-poppins text-[1.5rem] text-right">Além disso, define expectativas claras para cada nível hierárquico,<br> tornando o processo mais justo e <span class="text-azul-claro font-semibold ">humano</span>.</p>
+                    </div>
+                    <img src="img/servicos_img2.webp" alt="imagem de aperto de mão" class="overflow-clip  shadow-md">
+                </div>
+            </section>
+        </main>
+        <footer class="bg-azul-fundo flex justify-between items-center px-[12.5rem] py-[5rem]">
+            <ul class="flex flex-col gap-2.5">
+                <li><a href=""><img src="img/logo_footer.png" alt="logo conecte em cinza" class="w-[18rem]"></a></li>
+                <li><p class="text-cinza font-semibold font-poppin text-[1.5rem]">Conexões que impulsionam <br>carreiras</p></li>
+            </ul>
+            <ul class="flex flex-col justify-center items-center gap-4">
+                <li><p class="text-cinza font-semibold font-poppin">Disponível em</p></li>
+                <li class="flex ">
+                    <a href=""><img src="img/google_btn.png" alt="" class="w-[9rem] h-fit"></a>
+                    <a href=""><img src="img/apple_btn.png" alt="" class="w-[9rem] h-fit"></a>
+                </li>
+                <ul class="flex gap-4">
+                    <li><a href=""><i class="fa-brands fa-square-facebook text-[2rem] text-cinza hover:text-azul-escuro ease-linear duration-150"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram text-[2rem] text-cinza hover:text-azul-escuro ease-linear duration-150"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-linkedin text-[2rem] text-cinza hover:text-azul-escuro ease-linear duration-150"></i></a></li>
+                </ul>
+            </ul>
+            <ul class="text-right text-cinza font-semibold font-poppins text-[1rem] gap-[0.5rem] flex flex-col">
+                <li><a href="#" class="hover:text-azul-escuro ease-linear duration-150">Home</a></li>
+                <li><a href="#servicos" class="hover:text-azul-escuro ease-linear duration-150">Serviços</a></li>
+                <li><a href="contato.html" class="hover:text-azul-escuro ease-linear duration-150">Contato</a></li>
+                <li><a href="login.html" class="hover:text-azul-escuro ease-linear duration-150">Entrar</a></li>
+                <li><a href="register.html" class="hover:text-azul-escuro ease-linear duration-150">Cadastre-se</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
