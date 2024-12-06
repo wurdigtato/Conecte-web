@@ -29,7 +29,7 @@ Fornecer uma solução rápida e direta para candidatos que desejam encontrar va
 ## 📌 Como Usar
 
 1. Acesse pelo link:
-   https://wurdigtato.github.io/conecte-web/src/index.html
+2. [🔗 Conecte - Conexões que impulsionam carreiras]https://wurdigtato.github.io/conecte-web/src/index.html
 
    
 ## 💻 Desenvolvido por
