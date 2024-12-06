@@ -28,9 +28,9 @@ Fornecer uma solução rápida e direta para candidatos que desejam encontrar va
 
 ## 📌 Como Usar
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/conecte.git
+1. Acesse pelo link:
+   http://wurdigtato.github.io/conecte-web/src
+
    
 ## 💻 Desenvolvido por
 - Daniel Santos, Felipe Rosso, Gian Garima, Izadora Calvetti, Tácio Würdig
